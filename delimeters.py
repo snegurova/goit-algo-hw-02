@@ -1,4 +1,7 @@
+"""Module providing a function checking if delimiters are symmetric."""
+
 def check_delimiters(s):
+    """Function checking if delimiters are symmetric"""
     stack = []
     opening = "({["
     closing = ")}]"
